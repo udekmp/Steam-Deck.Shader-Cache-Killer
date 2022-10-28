@@ -138,7 +138,7 @@ function main () {
 
   if [ "$1" = "compatdata" ]; then
     zenity --question --width=400 \
-    --text="Warning!\nDeleting compactdata will break the game!\nDeleting compactdata for a  Proton version will break Proton!\nCheck appIds on steamdb if in doubt!\nContinue at own risk!"
+    --text="Warning!\nDeleting compatdata will break the game!\nDeleting compatdata for a  Proton version will break Proton!\nCheck appIDs on steamdb if in doubt!\nContinue at own risk!"
 
     if [ "$?" = 1 ]; then
       exit 1;
